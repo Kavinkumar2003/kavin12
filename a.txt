@@ -1,0 +1,8 @@
+﻿import matplotlib.pyplot as plt
+x=[1,2,3]
+plt.plot(x,'-g',label='x-axis')
+plt.xlabel('x-axis')
+plt.ylabel('y-axis')
+plt.title('line graph')
+plt.legend()
+plt.show()
